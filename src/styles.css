@@ -1,0 +1,134 @@
+
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mySwiper2 {
+    height: 80%;
+    width: 100%;
+  }
+  
+  .mySwiper1 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ .mySwiper2 .swiper-button-next {
+  content: 'next';
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6a00;
+  font-size: 20px !important;
+  border: 0px solid white !important;
+  border-radius: 5px !important;
+  height: 30px;
+  width: 40px;
+}
+
+.mySwiper2 .swiper-button-prev {
+  content: 'prev';
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ff6a00;
+  font-size: 20px !important;
+  border: 0px solid white !important;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px !important;
+
+
+}
+  .mySwiper2 .swiper-button-next::after {
+  content: 'next';
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6a00;
+  font-size: 20px !important;
+  border: 0px solid white !important;
+  border-radius: 5px !important;
+  height: 30px;
+  width: 40px;
+}
+
+.mySwiper2 .swiper-button-prev::after {
+  content: 'prev';
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ff6a00;
+  font-size: 20px !important;
+  border: 0px solid white !important;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px !important;
+
+
+}
+  
